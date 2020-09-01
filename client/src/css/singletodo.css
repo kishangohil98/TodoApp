@@ -1,0 +1,44 @@
+.content {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #6a11cb;
+  padding: 8px 20px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #6a11cb;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  position: relative;
+}
+.content h6 {
+  margin-bottom: 0;
+  font-size: 20px;
+  margin-bottom: 4px;
+  word-wrap: break-word;
+  padding-right: 110px;
+}
+.content:hover {
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom: 5px solid #5300ad;
+
+  color: #5300ad;
+}
+.assign_time {
+  font-size: 12px;
+  padding-left: 23px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0px;
+}
+.complete_btn {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  background-color: rgba(106, 17, 203, 0.95);
+  border: 0px solid transparent;
+  padding: 3px 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.complete_btn:hover {
+  background-color: #5300ad;
+}

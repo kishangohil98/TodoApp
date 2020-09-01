@@ -1,0 +1,22 @@
+.c_content {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #6a11cb;
+  padding: 8px 20px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #6a11cb;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  position: relative;
+}
+.c_content h6 {
+  margin-bottom: 0;
+  font-size: 20px;
+  word-wrap: break-word;
+  margin-bottom: 4px;
+}
+.c_content:hover {
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom: 4px solid #5300ad;
+
+  color: #5300ad;
+}

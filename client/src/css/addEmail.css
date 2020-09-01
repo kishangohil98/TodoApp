@@ -1,0 +1,61 @@
+.add_email {
+  background-image: linear-gradient(
+    -225deg,
+    #69eacb 0%,
+    #eaccf8 48%,
+    #6654f1 100%
+  );
+  min-height: 85vh;
+  text-align: center;
+}
+.header_addEmail {
+  color: #7918f2;
+}
+.add_email_form {
+  padding-top: 27px;
+}
+.add_email_form .input_add_email {
+  width: 100%;
+  border-radius: 20px;
+  padding: 0.5em 1.4em;
+  font: inherit;
+  border: 0;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.7);
+  transition: 0.3s ease;
+}
+.input_add_email:hover,
+.input_add_email:focus {
+  box-shadow: 0 19px 30px rgba(0, 0, 0, 0.7);
+}
+.todo_input,
+.button_addEmail {
+  font: inherit;
+  border: 0;
+}
+
+.input_add_email:focus,
+.button_addEmail:focus {
+  outline: none;
+}
+.button_addEmail {
+  padding: 0.5em 0.9em;
+  background: #6a11cb;
+  color: #fff;
+  transition: 0.3s ease;
+  border-radius: 20px;
+}
+.button_addEmail:hover {
+  background-color: #5300ad;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+.ty_text {
+  color: #6a11cb;
+}
+.p_text {
+  padding: 0 15px;
+}
+.errorText {
+  color: red;
+  margin-bottom: 0;
+  padding-top: 20px;
+}

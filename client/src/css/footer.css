@@ -1,0 +1,18 @@
+.footer_bg {
+  background-image: linear-gradient(to top, #8743d1 0%, #6a11cb 100%);
+  text-align: center;
+  padding: 20px 0;
+}
+.copy {
+  color: #fff;
+  font-size: 20px;
+}
+.git_link {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.git_link:hover {
+  text-decoration: underline;
+  color: #fff;
+}

@@ -91,7 +91,9 @@ const Home = () => {
     <>
       <div className="main_background">
         <Container>
-          <h2 className="animate__animated animate__jackInTheBox">
+          <h2
+            style={{ wordWrap: "break-word" }}
+            className="animate__animated animate__jackInTheBox">
             <span>{email}</span>'s Todo List
           </h2>
 

@@ -40,7 +40,7 @@ const AddEmail = () => {
       <div className="add_email">
         <Container>
           <Row className="justify-content-center">
-            <Col lg="7" md="8" sm="12" xs="12">
+            <Col lg="5" md="8" sm="12" xs="12">
               <form className="add_email_form" onSubmit={submitEmail}>
                 <h1 className="header_addEmail mb-4 animate__animated animate__pulse">
                   Enter Your Email

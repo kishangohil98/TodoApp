@@ -2,7 +2,6 @@ import React from "react";
 import "../css/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,7 +10,8 @@ const Footer = () => {
       <a
         href="https://github.com/kishangohil98"
         className="git_link"
-        target="_blank">
+        target="_blank"
+        rel="noopener noreferrer">
         Kishan Gohil <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
       </a>
     </div>

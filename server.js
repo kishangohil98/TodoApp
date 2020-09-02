@@ -10,9 +10,9 @@ connectDb();
 
 app.use(express.json({ extended: false }));
 
-app.get("/", (req, res) => {
-  res.send("App is running");
-});
+// app.get("/", (req, res) => {
+//   res.send("App is running");
+// });
 
 app.use("/api/todo", require("./routes/addTodo"));
 app.use("/api/todo_update", require("./routes/todoComplte"));
